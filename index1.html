@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        function breakout() {
+            console.log(window.top)
+            if (window.top != window.self) {
+                window.top.location = "D://Workspaces//JavaScript//index1.html"
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <input type="button" onclick="breakout()" value="跳出框架！">
+
+</body>
+
+</html>
